@@ -1,0 +1,131 @@
+\documentclass[12pt,a4paper,final,oneside]{book}
+\usepackage[utf8]{inputenc}
+\usepackage[portuguese]{babel}
+\usepackage{cmbright}
+%\usepackage[default]{frcursive}
+\usepackage{yfonts}	
+\usepackage{lettrine}
+\usepackage{calligra}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{makeidx}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{siunitx}
+\usepackage{lipsum}  
+\usepackage[alf]{abntex2cite}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+
+
+\renewcommand{\LettrineFontHook}{\calligra}
+
+%\renewcommand{\familydefault}{\sfdefault}
+%\renewcommand{\ttdefault}{bch}
+
+
+\begin{document}
+
+\frontmatter
+\begin{titlepage}
+	\centering
+	\includegraphics[width=0.15\textwidth]{furg.eps}\par\vspace{1cm}
+	{\scshape\LARGE Universidade Federal do Rio Grande - FURG \par}
+	\vspace{0.5cm}
+	{\scshape\Large  Centro de Ciências Computacionais\par}
+		\vspace{5cm}
+	{\scshape\LARGE Memorial Descritivo\par}
+	%\vspace{1.5cm}
+	%{\bfseries Progressão para professor Titular\par}
+	\vspace{2cm}
+	{\Large\itshape Nome Sobrenome Autor\par}
+	\vfill
+	{\large \today\par}
+\end{titlepage}
+
+
+\newenvironment{acknowledgements}%
+    {\cleardoublepage\thispagestyle{empty}\null\vfill}%
+    {\vfill\null}
+        \begin{acknowledgements}
+       Memorial Descritivo apresentado à Comissão Examinadora da Universidade Federal
+do Rio Grande - FURG como parte dos requisitos para progressão funcional para a
+Classe E do Magistério Superior (Professor Titular).
+        \end{acknowledgements}
+        
+
+
+
+\chapter{Dedicatória}
+
+\begin{itemize}
+\item \lipsum [1]
+\item \lipsum [2]
+\item \lipsum [3]
+
+
+\end{itemize}
+
+\chapter{Agradecimentos}
+
+\begin{itemize}
+
+\item \lipsum [4]
+\item \lipsum [5]
+\item \lipsum [6]
+
+
+\end{itemize}
+
+\cleardoublepage
+
+\tableofcontents
+
+\listoffigures
+
+\mainmatter
+
+\input{Identificacao.tex}
+
+\input{prefurg.tex}
+
+\input{FormacaoAcademica.tex}
+
+\input{ContextoComecoFurg.tex}
+
+\input{atividadesAdministrativas.tex}
+
+\input{atividadesEnsino.tex}
+
+\input{atividadesPesquisa.tex}
+
+\input{atividadesExtensao.tex}
+
+\input{colaboracoes.tex}
+
+\input{futuro.tex}
+
+\input{conclusao.tex}
+
+%
+
+
+
+
+%**Dicas Gerais:**
+%   - Mantenha uma linguagem clara e objetiva.
+%   - Utilize evidências quantitativas sempre que possível (número de publicações, índice H, avaliações positivas, etc.).
+%   - Seja honesto sobre desafios enfrentados, destacando como você os superou.
+%
+%Lembre-se de personalizar o memorial de acordo com suas experiências específicas e os critérios de promoção da sua instituição. 
+
+
+\appendix
+\input{Anexos.tex}
+
+
+\bibliographystyle{abntex2-alf}
+\bibliography{fake}
+
+\end{document}

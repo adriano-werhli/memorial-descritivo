@@ -1,0 +1,20 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\setlength{\labelsep}{0pt}\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{v-1.9.7 }
+
+\bibitem[Jones, Kent e Mouse 2024]{fake2}
+\abntrefinfo{Jones, Kent e Mouse}{JONES; KENT; MOUSE}{2024}
+{JONES, I.; KENT, C.; MOUSE, M. Boldly go where no man has gone before. In:
+  SPRINGER. \emph{Is learning in deep space a type of deep learning?} [S.l.],
+  2024. p. 3--50.}
+
+\bibitem[Surname1, Surname2 e You 2023]{fake1}
+\abntrefinfo{Surname1, Surname2 e You}{SURNAME1; SURNAME2; YOU}{2023}
+{SURNAME1, N.~N.; SURNAME2, N.; YOU, P.~U. Everything you would like to ask
+  about latex and did't have the guts to ask.
+\emph{Salami Science}, Magical Sciences, v.~29, n.~7, p. 845--854, 2023.}
+
+\end{thebibliography}
